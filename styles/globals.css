@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root {
+  --font-outfit : "Outfit", sans-serif;
+  --foreground: #171717;
+}
+/* 🌟 Improved Text Selection Styling (Soft Neon Effect) */
+::selection {
+  background: rgba(137, 95, 252, 0.8);
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* 🎨 Custom Scrollbar (Glassmorphism & Gradient Effect) */
+::-webkit-scrollbar {
+  width: 8px; /* Slightly wider for better usability */
+  background: #111; /* Keeps it modern */
+}
+
+/* Scrollbar Track (Glass Effect) */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Transparent look */
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar Thumb (Gradient & Smooth Look) */
+::-webkit-scrollbar-thumb {
+  background: #111;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body{
+  background-color: #FCFFF5;
+  font-family: var(--font-outfit);
+ 
+}
