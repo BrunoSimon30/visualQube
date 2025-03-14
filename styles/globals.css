@@ -34,5 +34,51 @@
 body{
   background-color: #FCFFF5;
   font-family: var(--font-outfit);
+ overflow-x: hidden;
+}
+
+.btn-a {
+  border: 1px solid #303030;
+  color: #303030;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+ul.plan-list {display: block;}
+
+ul.plan-list>li {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
  
+
+ul.plan-list>li>p {
+    color: #232121;
+    font-size: 17px;
+    font-weight: 500;
+}
+ul.plan-list.pwhite>li>p{
+  color: #fff;
+}
+ul.plan-list.pwhite>li>span {
+    color: #FB0;
+}
+.ft-link p{
+  color: #303030;
+  line-height: 25px;
+  font-size: 17px;
+}
+ul.ft-lin>li{
+  margin-bottom: 10px;
+}
+ul.ft-lin>li>p{
+  color: #303030;
+  font-size: 17px;
+   
+}
+ul.ft-lin>li>a{
+  color: #303030;
+  text-transform: capitalize;
+  font-size: 17px;
 }
