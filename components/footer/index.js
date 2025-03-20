@@ -1,13 +1,13 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 export default function Footer() {
   return (
     <>
-     <footer className="footer-sec bg-white">
+      <footer className="footer-sec bg-white px-8  ">
         <div className="container mx-auto max-w-screen-2xl">
-          <div className="up ft-btm py-28">
+          <div className="up ft-btm py-12 md:py-28">
             <div className="md:grid md:grid-cols-4 gap-12  space-y-6 md:space-y-0">
               <div className="ft-link space-y-2 md:space-y-6">
                 <h3 className="text-[25px] md:text-[2vw]  text-black font-[600] capitalize tall">
@@ -26,45 +26,45 @@ export default function Footer() {
                 <div className="flex gap-6 md:gap-24">
                   <ul className="ft-lin ">
                     <li>
-                      <Link href="">home</Link>
+                      <Link href="/">home</Link>
                     </li>
                     <li>
-                      <Link href="">About</Link>
+                      <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link href="">Services</Link>
+                      <Link href="/services">Services</Link>
                     </li>
                     <li>
-                      <Link href="">Work</Link>
+                      <Link href="/work">Work</Link>
+                    </li>
+                    <li>
+                      <Link href="/contact">Contact</Link>
                     </li>
                   </ul>
-                  <ul className="ft-lin ">
-                    <li>
-                      <Link href="">Testimonials</Link>
-                    </li>
-                    <li>
-                      <Link href="">Contact</Link>
-                    </li>
-                   
-                  </ul>
+                  
                 </div>
               </div>
               <div className="ft-link space-y-2 md:space-y-6">
                 <h3 className="text-[25px] md:text-[2vw] text-black font-[600] capitalize tall">
-                Services
+                  Services
                 </h3>
                 <ul className="ft-lin ">
                   <li>
-                    <Link href="">Websites</Link>
+                    <Link href="/branding">Branding</Link>
                   </li>
                   <li>
-                    <Link href="">Social Media</Link>
+                    <Link href="/website-design">Website Design</Link>
                   </li>
                   <li>
-                    <Link href="">Branding & Design</Link>
+                    <Link href="/app-design-development">
+                      App Design & Development
+                    </Link>
                   </li>
                   <li>
-                    <Link href="">Employer Branding</Link>
+                    <Link href="/digital-marketing">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link href="/data-cloud">Data & Cloud </Link>
                   </li>
                 </ul>
               </div>
@@ -75,37 +75,51 @@ export default function Footer() {
                 <ul className="ft-lin ">
                   <li>
                     <Link href="mailto:info@visualqube.com">
-                    info@visualqube.com 
+                      info@visualqube.com
                     </Link>
                   </li>
                   <li>
                     <Link href="tel:+12 34 567 89 00">+12 34 567 89 00</Link>
                   </li>
                   <li>
-                   <p>
-                   ESE Agency Grubenstrasse,<br/>
-                   8045 Zürich Schweiz
-                   </p>
+                    <p>11658 S. Copper Sky Dr, South Jordan, UT, 84009, USA</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-center pb-18">
+          <div className="md:flex justify-between items-end pb-6 md:pb-18 space-y-5 md:space-y-0">
             <div>
-              <Image src={'/img/ft-logo.svg'} width={700} height={150} alt='visual' />
+              <Image
+                src={"/img/ft-logo.svg"}
+                width={700}
+                height={150}
+                alt="visual"
+              />
             </div>
-            <div>
-              <p className="text-[#6C6C6C] font-[500] text-[17px]">© Visualqube, LLC</p>
-              <div className="flex gap-8 ">
-                <Link className="text-[#303030] text-[17px] font-[500]" href={''}>Privacy Policy</Link>
+            <div className="text-center md:text-right space-y-2 md:space-y-0">
+              <p className="text-[#6C6C6C] font-[500] text-[17px]">
+                © Visualqube, LLC
+              </p>
+              <div className="flex gap-8 justify-center md:justify-end">
+                <Link
+                  className="text-[#303030] text-[17px] font-[500] transition duration-300   hover:text-[#05C7AA]"
+                  href={"/privacy-policy"}
+                >
+                  Privacy Policy
+                </Link>
                 <p className="text-[#303030] text-[17px] font-[500]">|</p>
-                <Link className="text-[#303030] text-[17px] font-[500]"  href={''}>Terms & Conditions</Link>
+                <Link
+                  className="text-[#303030] text-[17px] font-[500] transition duration-300   hover:text-[#05C7AA]"
+                  href={"/terms-and-conditions"}
+                >
+                  Terms & Conditions
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </footer>
     </>
-  )
+  );
 }
