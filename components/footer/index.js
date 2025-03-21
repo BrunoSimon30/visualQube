@@ -14,9 +14,9 @@ export default function Footer() {
                   About us
                 </h3>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident fugiat nulla voluptate.
+                  VisualQube delivers unique, impressive digital solutions,
+                  enhancing brands with smart technology and designing standout
+                  websites and apps that truly shine.
                 </p>
               </div>
               <div className="ft-link space-y-2 md:space-y-6">
@@ -41,7 +41,6 @@ export default function Footer() {
                       <Link href="/contact">Contact</Link>
                     </li>
                   </ul>
-                  
                 </div>
               </div>
               <div className="ft-link space-y-2 md:space-y-6">

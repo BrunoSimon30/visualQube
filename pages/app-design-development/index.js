@@ -13,7 +13,7 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 
 export default function index() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const images = ["/img/ex1.png", "/img/ex2.png", "/img/ex3.png"]; // Change these paths accordingly
+  const images = ["/img/scroll/a1.png", "/img/scroll/a2.png", "/img/scroll/a3.png"]; 
 
   useEffect(() => {
     const sections = document.querySelectorAll(".content-section");
@@ -40,20 +40,19 @@ export default function index() {
   return (
     <>
       <Header />
-      <section className="main-sec  h-[40vh] md:h-screen bg-[#FCFFF5] flex items-center justify-center px-8">
+      <section className="main-sec  h-[50vh] md:h-screen bg-[#FCFFF5] flex items-center justify-center px-8">
         <div className="container mx-auto max-w-screen-2xl">
           <div className="md:grid md:grid-cols-2 gap-6 items-center">
             <div className="Mban-l space-y-12">
               <div>
                 <h1 className="text-[50px] leading-[50px] md:text-[5.729vw] text-[#030233] md:leading-[5.729vw]">
                   App
-                  <br /> Design and Development
+                  <br /> Design & Development
                 </h1>
               </div>
               <div className="">
                 <p className="text-[#303030] text-[17px]">
-                  Crafting strong brand identities with
-                  <br /> strategy & guidelines.
+                We turn our unique ideas into slick, fast, and intuitive apps.
                 </p>
               </div>
             </div>
@@ -69,17 +68,14 @@ export default function index() {
           </div>
         </div>
       </section>
-      <Cta rtc={"rtbcolor"} />
-       <Counter heading={`being a leading App Design  and Development Services company`} />
+      <Cta heading={`Your App Idea Deserves a Perfect Launch!`} rtc={"rtbcolor"} />
+       <Counter heading={`Being A Leading App Design & Development Services Company`} />
       
       <section className="ex-sec py-24 px-8">
         <div className="container mx-auto max-w-screen-2xl space-y-24">
           <div>
-            <h1 className="text-[#030728] text-[30px] leading-[35px] md:text-[4.167vw] md:leading-[4.167vw] font-[500]">
-              Service Overview
-              <br /> Duis aute irure dolor in reprehenderit
-              <br />
-              sunt in culpa qui officia
+            <h1 className="text-[#030728] text-[30px] leading-[35px] md:text-[4.167vw] md:leading-[4.167vw] font-[500] md:w-[70%]">
+            Creating Apps Users Love Isn't Luck—It's What We Do Best! Explore Our Services
             </h1>
           </div>
           <div className="md:flex gap-24">
@@ -98,13 +94,10 @@ export default function index() {
                 data-index="0"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                App Design (UI/UX)
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Designs so user-friendly, even a grandma can navigate them. Isn't it awesome? Expect attractive layouts, perfect user flow, and eye-catching visuals that make competitors jealous. First impressions? Nailed it. 
                 </p>
               </div>
               <div
@@ -112,13 +105,10 @@ export default function index() {
                 data-index="1"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                App Development
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                From a raw idea to a robust, high-performing app—clean code, next-gen features, consistent functionality, and advanced efficiency that exceeds expectations every time, across every device. 
                 </p>
               </div>
               <div
@@ -126,20 +116,17 @@ export default function index() {
                 data-index="2"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Testing and Quality Assurance
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                No bugs, no crashes—just peak performance—eliminating user frustration. Every pixel, tap, and swipe undergoes rigorous expert testing to ensure flawless functionality so your app runs like a dream from launch day onward. 
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <Cta rtc={"rtwcolor"} />
+      <Cta heading={`Launch Your Custom App Today!`} rtc={"rtwcolor"} />
       <Industory />
       <section className="work-sec  relative px-8 md:px-24 pb-28 bg-[#030728] md:bg-transparent ">
         <div className="hidden md:block w-shape absolute left-0 right-0 w-fit m-auto px-8">
@@ -165,7 +152,43 @@ export default function index() {
                 <div className="wrok-bx relative">
                   <div className="work-img">
                     <Image
-                      src={"/img/work1.png"}
+                      src={"/img/port/a1.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                    <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                      Watch Watch
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          Strategy
+                        </button>
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          brand identity
+                        </button>
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                     src={"/img/port/a2.png"}
                       width={655}
                       height={833}
                       alt="visual"
@@ -173,7 +196,7 @@ export default function index() {
                   </div>
                   <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
                     <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
-                      enim adminim
+                    Edu Link
                     </h2>
                     <div className="workist   space-y-2">
                       <div className="flex gap-2">
@@ -197,35 +220,34 @@ export default function index() {
                     </div>
                   </div>
                 </div>
-
                 <div className="wrok-bx relative">
                   <div className="work-img">
                     <Image
-                      src={"/img/work2.png"}
+                     src={"/img/port/a3.png"}
                       width={655}
                       height={833}
                       alt="visual"
                     />
                   </div>
                   <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
-                    <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
-                      enim adminim
+                    <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                    Memory Mag
                     </h2>
                     <div className="workist   space-y-2">
                       <div className="flex gap-2">
-                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
                           Strategy
                         </button>
-                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
                           UI/UX Design
                         </button>
                         <br />
                       </div>
                       <div className="flex gap-2">
-                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
                           brand identity
                         </button>
-                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                        <button className=" border border-[] text-[#fff] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
                           Development
                         </button>
                         <br />
@@ -238,7 +260,7 @@ export default function index() {
                 <div className="wrok-bx relative">
                   <div className="work-img">
                     <Image
-                      src={"/img/work3.png"}
+                       src={"/img/port/a4.png"}
                       width={655}
                       height={833}
                       alt="visual"
@@ -246,7 +268,42 @@ export default function index() {
                   </div>
                   <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
                     <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
-                      enim adminim
+                     Valent
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          Strategy
+                        </button>
+                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          brand identity
+                        </button>
+                        <button className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]">
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                       src={"/img/port/a5.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                    <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                    Guide Me
                     </h2>
                     <div className="workist   space-y-2">
                       <div className="flex gap-2">
@@ -275,17 +332,15 @@ export default function index() {
           </div>
         </div>
       </section>
-      <Cta rtc={"rtwcolor"} />
-      <section className="plan-sec py-12 md:py-28 bg-[#FCFFF5] px-8 ">
+      {/* <Cta heading={`Launch Your Custom App Today!`} rtc={"rtwcolor"} /> */}
+      {/* <section className="plan-sec py-12 md:py-28 bg-[#FCFFF5] px-8 ">
         <div className="container mx-auto max-w-screen-2xl space-y-18">
           <div className="plan-h text-center space-y-4">
             <h1 className="text-[30px] leading-[30px] md:text-[4.167vw] md:leading-[4.167vw] font-[500] text-[#030728]">
               Plans & Pricing
             </h1>
             <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px]  md:leading-[35px] font-[500]">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-              <br /> Excepteur sint occaecat cupidatat non proident.
+            Flexible plans with transparent pricing. No hidden fees—just powerful solutions built to your needs.<br/> Choose a plan, scale with ease, and grow with smart moves!
             </p>
           </div>
           <div className="plan-wrap space-y-24">
@@ -616,7 +671,7 @@ export default function index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <NewLetter />
       <Testimonial rtc={"rtwcolor"} />
       <Ready />

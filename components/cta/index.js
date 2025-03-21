@@ -5,7 +5,7 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from 'gsap';
 
-export default function Cta({rtc}) {
+export default function Cta({rtc,heading}) {
 
   const ctaRef = useRef();
   gsap.registerPlugin(ScrollTrigger);
@@ -39,8 +39,8 @@ export default function Cta({rtc}) {
             <div className='ctawrap'>
             <div className="md:flex md:justify-between md:items-center space-y-4 md:space-y-0 text-center md:text-left">
                 <div>
-                  <h1 className="text-[#030728]  text-[25px] leading-[30px] md:text-[2.656vw]  md:leading-[2.656vw] font-[500]">
-                    Want to grow your business digitally?
+                  <h1 className="text-[#030728]  text-[25px] leading-[30px] md:text-[2.5vw]  md:leading-[2.656vw] font-[500]">
+                   {heading}
                   </h1>
                 </div>
                 <div>

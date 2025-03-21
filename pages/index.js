@@ -23,11 +23,11 @@ export default function Home() {
       </Head> 
       <Header />
       <MainBanner />
-      <Cta rtc={'rtbcolor'} />
+      <Cta heading={`Digital is Where the Magic Happens. Don’t Miss the Show! `} rtc={'rtbcolor'} />
       <Wecreate />
       <Services />
       <Workour />
-      <Cta rtc={'rtwcolor'} />
+      <Cta heading={`The Digital Race Is On—Lead It, Don’t Chase It. `} rtc={'rtwcolor'} />
       <Plan />
       <NewLetter />
       <Testimonial rtc={'rtwcolor'}/>

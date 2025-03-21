@@ -43,12 +43,10 @@ export default function NewLetter() {
         <div className="container mx-auto max-w-screen-2xl">
           <div className="up_h md:flex justify-between bg-[#05C7AA] py-12 md:py-24 px-12 items-center md:rounded-3xl space-y-3 md:space-y-0">
             <h1 className="text-[30px] leading-[30px] md:text-[3.167vw] md:leading-[3.167vw] font-[500]">
-              Get Custom Quotes
+            Custom Quotes for <br/>Your Unique Needs
             </h1>
             <p className="max-w-[500px] text-[15px] leading-[25px]  md:text-[20px] md:leading-[30px]  text-[#303030]">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident.
+            Get a personalized quote tailored to your project’s specific requirements and budget. <br/>Connect with us now!
             </p>
             <div className="space-y-2">
               <Link

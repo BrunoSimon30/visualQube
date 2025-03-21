@@ -9,7 +9,6 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const HeaderRef = useRef();
-  const dropdownRef = useRef();
 
   useGSAP(() => {
     gsap.from(HeaderRef.current, {
@@ -21,10 +20,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header
-      ref={HeaderRef}
-      className="bg-[#FCFFF5] w-full py-4 fixed z-20 top-0 left-0"
-    >
+    <header ref={HeaderRef} className="bg-[#FCFFF5] w-full py-4 fixed z-20 top-0 left-0">
       <div className="container mx-auto max-w-screen-2xl px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -38,104 +34,64 @@ export default function Header() {
           <nav className="hidden md:flex gap-8 items-center">
             <ul className="menu flex gap-8">
               <li>
-                <Link
-                  className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]"
-                  href="/about"
-                >
+                <Link className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]" href="/about">
                   About
                 </Link>
               </li>
 
-              {/* Services Dropdown */}
+              {/* Services Dropdown - Open on Hover */}
               <li className="relative group">
-                <button
-                  className="text-[18px] text-[#303030] font-medium flex items-center gap-1 transition duration-700 hover:text-[#05C7AA]"
-                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                >
+                <button className="text-[18px] text-[#303030] font-medium flex items-center gap-1 transition duration-700 hover:text-[#05C7AA]">
                   Services <FiChevronDown />
                 </button>
 
                 {/* Dropdown Menu */}
-                {isDropdownOpen && (
-                  <ul
-                    ref={dropdownRef}
-                    className="absolute left-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-48"
-                  >
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] font-semibold hover:bg-gray-200"
-                        href="/services"
-                      >
-                        🔥 All Services
-                      </Link>
-                    </li>
-                 
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/branding"
-                      >
-                       Branding
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/website-design"
-                      >
+                <ul className="absolute left-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] font-semibold hover:bg-gray-200" href="/services">
+                      🔥 All Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/branding">
+                      Branding
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/website-design">
                       Website Design
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/app-design-development"
-                      >
-                       App Design & Dev 
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/digital-marketing"
-                      >
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/app-design-development">
+                      App Design & Dev
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/digital-marketing">
                       Digital Marketing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/data-cloud"
-                      >
-                     Data & Cloud
-                      </Link>
-                    </li>
-                  </ul>
-                )}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/data-cloud">
+                      Data & Cloud
+                    </Link>
+                  </li>
+                </ul>
               </li>
 
               <li>
-                <Link
-                  className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]"
-                  href="/work"
-                >
+                <Link className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]" href="/work">
                   Our Work
                 </Link>
               </li>
               <li>
-                <Link
-                  className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]"
-                  href="/industries"
-                >
+                <Link className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]" href="/industries">
                   Industries
                 </Link>
               </li>
-
               <li>
-                <Link
-                  className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]"
-                  href="/contact"
-                >
+                <Link className="text-[18px] text-[#303030] font-medium transition duration-700 hover:text-[#05C7AA]" href="/contact">
                   Contact
                 </Link>
               </li>
@@ -166,55 +122,36 @@ export default function Header() {
 
               {isDropdownOpen && (
                 <ul className="ml-6 mt-2 space-y-2">
-                 <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] font-semibold hover:bg-gray-200"
-                        href="/services"
-                      >
-                        🔥 All Services
-                      </Link>
-                    </li>
-                 
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/branding"
-                      >
-                       Branding
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/website-design"
-                      >
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] font-semibold hover:bg-gray-200" href="/services">
+                      🔥 All Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/branding">
+                      Branding
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/website-design">
                       Website Design
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/app-design-development"
-                      >
-                       App Design & Dev 
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/digital-marketing"
-                      >
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/app-design-development">
+                      App Design & Dev
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/digital-marketing">
                       Digital Marketing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="block px-4 py-2 text-[#303030] hover:bg-gray-200"
-                        href="/data-cloud"
-                      >
-                     Data & Cloud
-                      </Link>
-                    </li>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="block px-4 py-2 text-[#303030] hover:bg-gray-200" href="/data-cloud">
+                      Data & Cloud
+                    </Link>
+                  </li>
                 </ul>
               )}
             </li>

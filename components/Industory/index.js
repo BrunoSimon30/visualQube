@@ -80,13 +80,10 @@ export default function Industory() {
         <div className="space-y-24">
           <div className="up_h indus-h text-center space-y-4 px-8">
             <h1 className="text-[30px] leading-[30px] md:text-[4.167vw] md:leading-[4.167vw] font-[500] text-[#030728] capitalize">
-              Belonging to industries!
+            Leading Digital Mastery <br/>Across Industries
             </h1>
             <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] font-[500] md:leading-[35px]">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur
-              <br />
-              sint occaecat cupidatat non proident..
+            Discover solutions specific to your respective industry and start transforming and<br/> dominating markets. Jumpstart your journey to digital excellence now! 
             </p>
           </div>
 

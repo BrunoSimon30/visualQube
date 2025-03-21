@@ -10,40 +10,80 @@ const termsData = [
     id: "your-agreement",
     content: `
      <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Privacy Policy</h2>
-      <p class=" text-[#303030]  text-[20px]">At Your Visual Qube, we value your privacy and are committed to safeguarding your personal information. Our Privacy Policy outlines how we collect, use, disclose, and protect the data you provide while accessing our website and utilizing our services. By engaging with Your Visual Qube, you consent to the practices described in this Privacy Policy.</p>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Welcome to VisualQube. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+Your privacy and the security of your personal information are of paramount importance to us. By accessing or using our website, products, or services, you confirm your agreement to the practices described in this Privacy Policy. If you do not agree with our policies and practices, please do not use our services.
+      </p>
+     </div>
+      <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Collection of Information. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      At VisualQube, we collect various types of information to enhance your experience and improve our services. This includes personal information that you voluntarily provide such as your name, email address, telephone number, and any other information that can personally identify you. We also collect technical information automatically as you navigate through our site, such as usage details, IP addresses, and information collected through cookies and other tracking technologies.
+      </p>
      </div>
      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Information Collection</h2>
-     <p class=" text-[#303030]  text-[20px]">We may collect personal information, such as name, email address, contact details, and browsing data, when you interact with our website, subscribe to our newsletters, or avail our services.</p>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Use of Collected Information. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      The information we collect helps us to provide, maintain, and improve our services. It enables us to manage your account, provide customer support, and communicate with you effectively. We use your information to personalize your experience with us and to recommend content that might be of interest to you. We also use this information to monitor and analyze trends, usage, and activities in connection with our services.
+      </p>
      </div>
-      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Data Usage</h2>
-     <p class=" text-[#303030]  text-[20px]">The information we gather is utilized to personalize your experience, process transactions, improve our website, and respond to your inquiries promptly.</p>
+     <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Sharing of Information. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      VisualQube does not sell or rent your personal information to third parties. We may share information with third-party partners and service providers who work on our behalf, provided that they do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this Privacy Policy. Additionally, we may disclose personal information if required by law, such as to comply with a subpoena or other legal process, when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.
+      </p>
      </div>
-      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Third-Party Disclosure</h2>
-     <p class=" text-[#303030]  text-[20px]">We may share your data with trusted third-party service providers that assist us in delivering our services. Rest assured that we take measures to ensure your information is protected by these partners.</p>
+     <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Data Security. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      We implement measures designed to protect your personal information from unauthorized access, use, alteration, and destruction. However, no security system is impenetrable and we cannot guarantee the security of our databases, nor can we guarantee that the information you supply will not be intercepted while being transmitted to us over the Internet.
+      </p>
      </div>
-      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Cookies and Tracking Technologies</h2>
-     <p class=" text-[#303030]  text-[20px]">Our website uses cookies and tracking technologies to enhance your browsing experience. You have the option to modify your browser settings to control cookie usage.</p>
+     <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Data Retention. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      We will retain your information for as long as your account is active or as needed to provide you services. We will also retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.
+      </p>
      </div>
-      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Data Security</h2>
-     <p class=" text-[#303030]  text-[20px]">Your Visual Qube employs industry-standard security measures to safeguard your personal information against unauthorized access, disclosure, alteration, or destruction.
-     No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</p>
+     <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Your Rights and Choices. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      You may have certain rights and choices regarding our collection, use, and disclosure of your information. Depending on your location, these rights can include accessing or rectifying information we hold about you, requesting the deletion of information, or requesting that we stop processing information about you. You may also have the right to withdraw consent to the use of your information.
+      </p>
      </div>
-      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Data Retention</h2>
-     <p class=" text-[#303030]  text-[20px]">We retain your data only for as long as necessary to fulfill the purposes outlined in this Privacy Policy and comply with legal obligations.</p>
+     <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Changes to Our Privacy Policy. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+      VisualQube reserves the right to update or modify this Privacy Policy at any time and from time to time without prior notice. Please review this policy periodically, and especially before you provide any personal information. Your continued use of our services after any changes or revisions to this Privacy Policy shall indicate your agreement with the terms of such revised Privacy Policy
+      </p>
      </div>
-      <div>
-     <h2 class="text-[#030728] text-[30px] capitalize font-semibold">Children's Privacy</h2>
-     <p class=" text-[#303030]  text-[20px]">Our services are not intended for children under 13 years of age. We do not knowingly collect or retain personal information from children.
+     <div>
+      <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
+Contact Us. 
+      </h2>
+      <p class=" text-[#303030]  text-[20px]">
+     If you have any questions about this Privacy Policy or our information-handling practices, please contact us by email or postal mail. We welcome your questions and suggestions about our Privacy Policy and will use our best efforts to respond in a timely manner.
+Thank you for choosing VisualQube. We are committed to continuously enhancing our services and safeguarding your personal information, ensuring that you have a fulfilling and secure experience.
 
-By using Your Visual Qube website and services, you acknowledge and agree to this Privacy Policy in their entirety. If you do not agree with any part of these policies, please refrain from using our website and services.</p>
+      </p>
      </div>
+      
   
       
       `,
@@ -69,11 +109,6 @@ export default function index() {
       </section>
       <section className="term-sec py-32 px-6 xl:px-0">
         <div className="container mx-auto max-w-screen-2xl space-y-6">
-          <div>
-            <h2 className="text-[#030728] text-[25px] font-semibold">
-              11-03-2025
-            </h2>
-          </div>
           {termsData.map((section) => (
             <div
               className="text-[#030728] space-y-6"

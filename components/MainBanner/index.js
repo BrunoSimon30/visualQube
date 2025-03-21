@@ -31,14 +31,14 @@ const mainBan = useRef();
 
   return (
     <>
-      <section ref={mainBan} className="main-sec  h-[40vh] md:h-screen bg-[#FCFFF5] flex items-center justify-center px-8 relative z-[-1]">
+      <section ref={mainBan} className="main-sec  h-[65vh] md:h-screen bg-[#FCFFF5] flex items-center justify-center px-8 relative z-[-1]">
         <div className="container mx-auto max-w-screen-2xl">
        <div className='MainBanwrap'>
        <div className="md:grid md:grid-cols-2 gap-6">
             <div className="Mban-l space-y-12">
               <div>
-                <h1 className="text-[50px] leading-[50px] md:text-[5.729vw] text-[#030233] md:leading-[5.729vw]">
-                  Digital Experiences That Inspire.
+                <h1 className="text-[45px] leading-[50px] md:text-[5.729vw] text-[#030233] md:leading-[5.729vw]">
+                Create Digital Experiences That Wow.
                 </h1>
               </div>
               <div className="flex gap-12 items-center">
@@ -51,9 +51,7 @@ const mainBan = useRef();
                   />
                 </span>
                 <p className="text-[#303030] text-[17px]">
-                  We are a creative agency passionate
-                  <br /> about technology, design and telling <br />
-                  unique stories.
+                VisualQube is a tech-driven marketing <br/>agency creating digital experiences that <br/>captivate, engage, and inspire.
                 </p>
               </div>
             </div>

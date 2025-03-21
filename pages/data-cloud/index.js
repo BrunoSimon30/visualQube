@@ -13,7 +13,7 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 
 export default function index() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const images = ["/img/ex1.png", "/img/ex2.png", "/img/ex3.png"]; // Change these paths accordingly
+  const images = ["/img/scroll/c1.png", "/img/scroll/c2.png", "/img/scroll/c3.png"]; 
 
   useEffect(() => {
     const sections = document.querySelectorAll(".content-section");
@@ -40,7 +40,7 @@ export default function index() {
   return (
     <>
       <Header />
-      <section className="main-sec  h-[40vh] md:h-screen bg-[#FCFFF5] flex items-center justify-center px-8">
+      <section className="main-sec  h-[50vh] md:h-screen bg-[#FCFFF5] flex items-center justify-center px-8">
         <div className="container mx-auto max-w-screen-2xl">
           <div className="md:grid md:grid-cols-2 gap-6 items-center">
             <div className="Mban-l space-y-12">
@@ -52,8 +52,7 @@ export default function index() {
               </div>
               <div className="">
                 <p className="text-[#303030] text-[17px]">
-                  Crafting strong brand identities with
-                  <br /> strategy & guidelines.
+                We Simplify Data, Boost Scalability, And Ensure Peace Of Mind.
                 </p>
               </div>
             </div>
@@ -69,17 +68,14 @@ export default function index() {
           </div>
         </div>
       </section>
-      <Cta rtc={"rtbcolor"} />
-      <Counter heading={`being a leading Data & Cloud Services company`} />
+      <Cta heading={`Drowning in Data? Let’s Cloud It Up!`} rtc={"rtbcolor"} />
+      <Counter heading={`Being A Leading Data & Cloud Services Company`} />
      
       <section className="ex-sec py-24 px-8">
         <div className="container mx-auto max-w-screen-2xl space-y-24">
           <div>
-            <h1 className="text-[#030728] text-[30px] leading-[35px] md:text-[4.167vw] md:leading-[4.167vw] font-[500]">
-              Service Overview
-              <br /> Duis aute irure dolor in reprehenderit
-              <br />
-              sunt in culpa qui officia
+            <h1 className="text-[#030728] text-[30px] leading-[35px] md:text-[4.167vw] md:leading-[4.167vw] font-[500] md:w-[70%]">
+            Cloud Solutions That Scale, Secure & Simplify—No Servers, No Stress, Just Performance & Growth!
             </h1>
           </div>
           <div className="md:flex gap-24">
@@ -98,13 +94,10 @@ export default function index() {
                 data-index="0"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Infrastructure As A Service
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Ditch the hardware drama! Scale on demand, slash costs, and boost performance—without lifting a server. Secure, reliable, and built to grow with your business, hassle-free.
                 </p>
               </div>
               <div
@@ -112,13 +105,10 @@ export default function index() {
                 data-index="1"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Platform As A Service
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Get rid of more infrastructure puzzles! Effortlessly launch, efficiently manage, and smoothly scale applications while focusing on innovation. Automated updates, built-in security, without tech stress.
                 </p>
               </div>
               <div
@@ -126,33 +116,28 @@ export default function index() {
                 data-index="2"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Software As A Service
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Run powerful software with zero effort! Secure, always updated, and accessible remotely—get more done with seamless access, hassle-free maintenance, and 100% efficiency, all while eliminating downtime and disruptions.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <Cta rtc={"rtwcolor"} />
+      {/* <Cta heading={`Future-Proof Your Business with Cloud!`} rtc={"rtwcolor"} /> */}
       
   
       
-      <section className="plan-sec py-12 md:py-28 bg-[#FCFFF5] px-8 ">
+      {/* <section className="plan-sec py-12 md:py-28 bg-[#FCFFF5] px-8 ">
         <div className="container mx-auto max-w-screen-2xl space-y-18">
           <div className="plan-h text-center space-y-4">
             <h1 className="text-[30px] leading-[30px] md:text-[4.167vw] md:leading-[4.167vw] font-[500] text-[#030728]">
               Plans & Pricing
             </h1>
             <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px]  md:leading-[35px] font-[500]">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-              <br /> Excepteur sint occaecat cupidatat non proident.
+            Flexible plans with transparent pricing. No hidden fees—just powerful solutions built to your needs.<br/> Choose a plan, scale with ease, and grow with smart moves!
             </p>
           </div>
           <div className="plan-wrap space-y-24">
@@ -483,7 +468,7 @@ export default function index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <NewLetter />
       <Testimonial rtc={"rtwcolor"} />
       <Ready />

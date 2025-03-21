@@ -71,15 +71,17 @@ export default function ContactPage() {
       </Head>
       <Header />
       <ToastContainer />
-      <section className="wor-sec py-32 px-8">
-        <div className="container mx-auto max-w-screen-2xl space-y-24">
+      <section className="wor-sec py-24 md:py-32 px-8">
+        <div className="container mx-auto max-w-screen-2xl space-y-16 md:space-y-24">
           <div className="md:flex items-center gap-12">
-            <h1 className="w-full text-[5.729vw] text-[#030233] leading-[5.729vw]">
-              <span className="text-[#FFD548] font-cabold">Hey!</span> Tell us
-              <br />
-              all the things
+           <div className="md:w-1/2 pt-12 md:pt-0">
+           <h1 className="text-[5.729vw] text-[#030233] leading-[5.729vw]">
+              <span className="text-[#FFD548] font-cabold">Hey!</span> Let's Connect!
             </h1>
-            <div className="w-full workist space-y-2">
+            <p className="text-[#030728] text-[20px] pb-2 hidden md:block">Fill out the form and grow your business digitally.</p>
+           </div>
+           
+            <div className="md:w-1/2  workist space-y-2">
               <h3 className="text-[#030728] text-[20px] pb-2">I'm interested in...</h3>
               <div className="flex gap-2 flex-wrap">
                 {["All", "Branding", "Website Design", "App Development", "Digital Marketing"].map((service) => (

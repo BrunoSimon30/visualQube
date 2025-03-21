@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
 
 export default function index() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const images = ["/img/ex1.png", "/img/ex2.png", "/img/ex3.png"]; // Change these paths accordingly
+  const images = ["/img/scroll/a3.png", "/img/scroll/d1.png", "/img/scroll/c2.png"]; 
 
   useEffect(() => {
     const sections = document.querySelectorAll(".content-section");
@@ -63,14 +63,13 @@ export default function index() {
             </div>
             <div>
               <p className="text-[30px] leading-[30px] md:text-[2.604vw] md:leading-[2.90vw] text-[#030728]">
-                We create impactful digital experiences & redefine brand
-                identities. 
+              We Create Impactful Digital Experiences & Redefine Brand Identities.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <Cta />
+      <Cta heading={`Frame Your Future with VisualQube. Focus Now! `} rtc={'rtbcolor'}/>
       <section className="visi-sec py-24 bg-[#030728]   flex items-center px-8  ">
         <div className="container mx-auto max-w-screen-2xl ">
           <div className="space-y-24">
@@ -97,8 +96,7 @@ export default function index() {
             <div>
               <div className="text-center max-w-[800px] m-auto">
                 <p className="text-[30px] leading-[40px] md:text-[2.604vw] md:leading-[2.90vw] text-[#FCFFF5]">
-                  Design tomorrow’s most valuable companies with today’s most
-                  exceptional humans.
+                Shape Tomorrow's Leading Companies with Today's Most Creative Minds.
                 </p>
               </div>
             </div>
@@ -129,9 +127,7 @@ export default function index() {
         <div className="container mx-auto max-w-screen-2xl space-y-24">
           <div>
             <h1 className="text-[#030728] text-[30px] leading-[35px] md:text-[4.167vw] md:leading-[4.167vw] font-[500]">
-              Excepteur sint occaecat cupidatat <br />
-              non proident sunt in culpa qui officia <br />
-              deserunt mollit.
+            10X Your Success with Innovation, Disruptive Strategies, and Seamless Execution for Lasting Growth.
             </h1>
           </div>
           <div className="md:flex gap-24">
@@ -150,13 +146,10 @@ export default function index() {
                 data-index="0"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Transformative Technology 
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Harness the latest in digital innovation with our bespoke solutions, designed to push your business forward. Experience advanced tech that ensures growth and drives efficiency.
                 </p>
               </div>
               <div
@@ -164,13 +157,10 @@ export default function index() {
                 data-index="1"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Strategic Digital Marketing 
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Boost your brand with our strategic marketing approaches that blend creativity with analytics. Reach new heights with customized campaigns that capture and convert your target audience.
                 </p>
               </div>
               <div
@@ -178,13 +168,10 @@ export default function index() {
                 data-index="2"
               >
                 <h2 className="text-[30px] leading-[30px] md:text-[2.656vw] md:leading-[2.656vw] font-[500]">
-                  dolore magna
+                Robust Data Analytics 
                 </h2>
                 <p className="text-[#303030] text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] font-[500]">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui anim id est
-                  laborum.
+                Leverage powerful data insights with our unconventional analytics services. Make informed decisions that anticipate market trends while setting new industry standards.
                 </p>
               </div>
             </div>
@@ -192,7 +179,7 @@ export default function index() {
         </div>
       </section>
 
-      <Cta />
+      <Cta heading={`Ready to Dominate? Act Now—Before Competitors Do!	`} rtc={'rtwcolor'} />
       <Industory />
       <Testimonial />
       <Ready />

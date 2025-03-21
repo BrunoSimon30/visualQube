@@ -61,7 +61,7 @@ export default function Workour() {
                 <div className="wrok-bx relative">
                   <div className="work-img">
                     <Image
-                      src={"/img/work1.png"}
+                      src={"/img/port/b1.png"}
                       width={655}
                       height={833}
                       alt="visual"
@@ -69,7 +69,7 @@ export default function Workour() {
                   </div>
                   <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
                     <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
-                      enim adminim
+                      Wammie
                     </h2>
                     <div className="workist   space-y-2">
                       <div className="flex gap-2">
@@ -109,7 +109,55 @@ export default function Workour() {
                 <div className="wrok-bx relative">
                   <div className="work-img">
                     <Image
-                      src={"/img/work2.png"}
+                      src={"/img/port/b2.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                      WavePay
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff] text-white rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff]  text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/w2.png"}
                       width={655}
                       height={833}
                       alt="visual"
@@ -117,7 +165,7 @@ export default function Workour() {
                   </div>
                   <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
                   <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
-                      enim adminim
+                      Spring 24
                     </h2>
                     <div className="workist   space-y-2">
                       <div className="flex gap-2">
@@ -153,12 +201,57 @@ export default function Workour() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="work-l space-y-6 md:space-y-24">
                 <div className="wrok-bx relative">
                   <div className="work-img">
                     <Image
-                      src={"/img/work3.png"}
+                      src={"/img/port/w4.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                      Codlou
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff] text-white rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff]  text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/a5.png"}
                       width={655}
                       height={833}
                       alt="visual"
@@ -166,7 +259,7 @@ export default function Workour() {
                   </div>
                   <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
                   <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
-                      enim adminim
+                    Guide Me
                     </h2>
                     <div className="workist   space-y-2">
                       <div className="flex gap-2">
@@ -193,6 +286,291 @@ export default function Workour() {
                         </button>
                         <button
                           className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/a1.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                    Watch Watch
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff] text-white rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff]  text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="work-l space-y-6 md:space-y-24">
+                
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/b3.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                      Wollo
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/w3.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                     Buya Trucker
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[]  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border    rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/a3.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                      Memory Mag
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff] text-white rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff]  text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/a2.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#030728] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                      Edu Link
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[] rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Development
+                        </button>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="wrok-bx relative">
+                  <div className="work-img">
+                    <Image
+                      src={"/img/port/d1.png"}
+                      width={655}
+                      height={833}
+                      alt="visual"
+                    />
+                  </div>
+                  <div className="work-ctn space-y-6 absolute bottom-0 left-0 right-0 px-4 md:px-12 py-18">
+                  <h2 className="text-[#fff] text-[30px] leading-[30px]  md:text-[2.656vw] capitalize md:leading-[2.656vw]">
+                     Strong Trainer
+                    </h2>
+                    <div className="workist   space-y-2">
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff] text-white rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          Strategy
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          UI/UX Design
+                        </button>
+                        <br />
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          className=" border border-[#ffff]  text-white  rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
+                          
+                        >
+                          brand identity
+                        </button>
+                        <button
+                          className=" border border-[#ffff] text-white   rounded-4xl px-4 md:px-8 py-2 md:py-4 transition duration-300 hover:bg-[#05C7AA] hover:text-[#fff]"
                           
                         >
                           Development

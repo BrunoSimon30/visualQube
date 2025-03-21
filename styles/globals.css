@@ -53,10 +53,13 @@ border: 1px solid #05C7AA;
 }
 .lsitdiv {
   max-height: 325px;
-  overflow: scroll;
+  overflow-y: auto !important; /* Force scroll */
   overflow-x: hidden;
-  cursor: grabbing;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ccc transparent; /* Custom scrollbar */
 }
+
+
 .lsitdiv::-webkit-scrollbar {
   width: 8px; /* Slightly wider for better usability */
   background: #FCFFF5; /* Keeps it modern */
@@ -76,7 +79,7 @@ ul.plan-list {display: block;padding-right: 25px;}
 ul.plan-list>li {
     display: flex;
     gap: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 14px;
 }
  
 
@@ -178,12 +181,19 @@ button{
 }
 
 
-
+.work-w {
+  width: 350px;
+  height: 280px;
+}
 
 
 /* ========media========= */
 
 @media (max-width: 1440px) {
+  .work-w {
+    width: 300px;
+    height: 260px;
+  }
   .packwh{
     width: 418px;
      
@@ -198,12 +208,20 @@ button{
     width: 397px;
    
   }
+  .work-w {
+    width: 280px;
+    height: 260px;
+  }
 }
 @media (max-width: 1300px) 
 {
   .packwh{
     width: 378px;
     
+  }
+  .work-w {
+    width: 260px;
+    height: 260px;
   }
 }
 @media (max-width: 1200px) {

@@ -21,10 +21,8 @@ export default function Ready() {
         <div className="container mx-auto max-w-screen-2xl">
           <div className="indus-h md:flex items-end space-y-4 md:space-y-0">
             <h1 className="text-[30px] leading-[30px] md:text-[4.167vw] md:leading-[4.167vw] text-[#030728] font-[500]">
-              Ready to make a digital impact? <br />
-              Let's create something
-              <br />
-              unforgettable.
+            Geared for Digital Disruption?<br/>
+            Let's Sculpt the Never <br/>Before-Seen.	
             </h1>
             <div>
               <Link

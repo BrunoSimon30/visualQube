@@ -133,7 +133,7 @@ export default function index() {
              {silItems?.map((v, index) => (
                <div
                  key={index}
-                 className="shrink-0 w-[334px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
+                 className="work-w shrink-0  bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
                >
                  <div>
                    <Image
@@ -155,78 +155,78 @@ export default function index() {
      </section>
       )}
       {activetab === "tab2" && (
-      <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
-      <div className="w-shape hidden md:block absolute left-0 right-0 top-0 w-fit m-auto">
-        <Image src={"/img/work-shape.png"} width={1800} height={1180} />
-        <div className="text-right absolute top-52  right-0     w-full">
-          <h1 className="text-[18.75vw] leading-[18.75vw] text-white">
-            Industries
-          </h1>
-        </div>
-      </div>
-      <div className="container mx-auto max-w-screen-2xl    ">
-        <div className="work-con  md:pt-32  ">
-          <div className="md:grid md:grid-cols-4 gap-12 space-y-4 md:space-y-0">
-            {silItems?.map((v, index) => (
-              <div
-                key={index}
-                className="shrink-0 w-[334px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
-              >
-                <div>
-                  <Image
-                    className="m-auto"
-                    src={v?.img}
-                    width={100}
-                    height={100}
-                    alt={v.titel}
-                  />
-                  <h2 className="text-[#030728] text-[25px] font-[500] text-center">
-                    {v?.titel}
-                  </h2>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
+         <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
+       <div className="w-shape hidden md:block absolute left-0 right-0 top-0 w-fit m-auto">
+         <Image src={"/img/work-shape.png"} width={1800} height={1180} />
+         <div className="text-right absolute top-52  right-0     w-full">
+           <h1 className="text-[18.75vw] leading-[18.75vw] text-white">
+             Industries
+           </h1>
+         </div>
+       </div>
+       <div className="container mx-auto max-w-screen-2xl    ">
+         <div className="work-con  md:pt-32  ">
+           <div className="md:grid md:grid-cols-4 gap-12 space-y-4 md:space-y-0">
+             {silItems?.map((v, index) => (
+               <div
+                 key={index}
+                 className="shrink-0 w-[300px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
+               >
+                 <div>
+                   <Image
+                     className="m-auto"
+                     src={v?.img}
+                     width={100}
+                     height={100}
+                     alt={v.titel}
+                   />
+                   <h2 className="text-[#030728] text-[25px] font-[500] text-center">
+                     {v?.titel}
+                   </h2>
+                 </div>
+               </div>
+             ))}
+           </div>
+         </div>
+       </div>
+     </section>
       )}
       {activetab === "tab3" && (
-        <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
-          <div className="w-shape hidden md:block absolute left-0 right-0 top-0 w-fit m-auto">
-            <Image src={"/img/work-shape.png"} width={1800} height={1180} />
-            <div className="text-right absolute top-52  right-0     w-full">
-              <h1 className="text-[18.75vw] leading-[18.75vw] text-white">
-                Industries
-              </h1>
-            </div>
-          </div>
-          <div className="container mx-auto max-w-screen-2xl    ">
-            <div className="work-con  md:pt-32  ">
-              <div className="md:grid md:grid-cols-4 gap-12 space-y-4 md:space-y-0">
-                {silItems?.map((v, index) => (
-                  <div
-                    key={index}
-                    className="shrink-0 w-[334px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
-                  >
-                    <div>
-                      <Image
-                        className="m-auto"
-                        src={v?.img}
-                        width={100}
-                        height={100}
-                        alt={v.titel}
-                      />
-                      <h2 className="text-[#030728] text-[25px] font-[500] text-center">
-                        {v?.titel}
-                      </h2>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+          <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
+       <div className="w-shape hidden md:block absolute left-0 right-0 top-0 w-fit m-auto">
+         <Image src={"/img/work-shape.png"} width={1800} height={1180} />
+         <div className="text-right absolute top-52  right-0     w-full">
+           <h1 className="text-[18.75vw] leading-[18.75vw] text-white">
+             Industries
+           </h1>
+         </div>
+       </div>
+       <div className="container mx-auto max-w-screen-2xl    ">
+         <div className="work-con  md:pt-32  ">
+           <div className="md:grid md:grid-cols-4 gap-12 space-y-4 md:space-y-0">
+             {silItems?.map((v, index) => (
+               <div
+                 key={index}
+                 className="shrink-0 w-[300px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
+               >
+                 <div>
+                   <Image
+                     className="m-auto"
+                     src={v?.img}
+                     width={100}
+                     height={100}
+                     alt={v.titel}
+                   />
+                   <h2 className="text-[#030728] text-[25px] font-[500] text-center">
+                     {v?.titel}
+                   </h2>
+                 </div>
+               </div>
+             ))}
+           </div>
+         </div>
+       </div>
+     </section>
       )}
       {activetab === "tab4" && (
        <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
@@ -244,7 +244,7 @@ export default function index() {
              {silItems?.map((v, index) => (
                <div
                  key={index}
-                 className="shrink-0 w-[334px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
+                 className="shrink-0 w-[300px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
                >
                  <div>
                    <Image
@@ -266,7 +266,7 @@ export default function index() {
      </section>
       )}
       {activetab === "tab5" && (
-       <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
+        <section className="work-sec  relative px-8 md:px-24  pb-32 md:h-[1180px] flex items-end">
        <div className="w-shape hidden md:block absolute left-0 right-0 top-0 w-fit m-auto">
          <Image src={"/img/work-shape.png"} width={1800} height={1180} />
          <div className="text-right absolute top-52  right-0     w-full">
@@ -281,7 +281,7 @@ export default function index() {
              {silItems?.map((v, index) => (
                <div
                  key={index}
-                 className="shrink-0 w-[334px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
+                 className="shrink-0 w-[300px] h-[267px] bg-[#FCFFF5] flex items-center justify-center rounded-2xl drop-shadow-md border mx-4"
                >
                  <div>
                    <Image

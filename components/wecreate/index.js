@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React, { useRef } from 'react'
-import { useGSAP } from '@gsap/react';
+import Image from "next/image";
+import Link from "next/link";
+import React, { useRef } from "react";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import gsap from 'gsap';
+import gsap from "gsap";
 
 export default function Wecreate() {
   const weRef = useRef();
@@ -21,7 +21,7 @@ export default function Wecreate() {
         // markers: true,
       },
     });
-   
+
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: weRef.current,
@@ -45,24 +45,23 @@ export default function Wecreate() {
         ease: "power3.out",
       },
       "run"
-    )
- 
-
-   }, [])
+    );
+  }, []);
   return (
     <>
-      <section ref={weRef} className="we-sec bg-[#030728]  py-16 md:py-28 px-8 relative ">
+      <section
+        ref={weRef}
+        className="we-sec bg-[#030728]  py-16 md:py-28 px-8 relative "
+      >
         <div className="container mx-auto max-w-screen-2xl">
           <div className="space-y-12 md:space-y-24">
-            <div className='up_h'>
+            <div className="up_h">
               <h1 className="text-[25px] leading-[30px] md:text-[4.167vw] md:leading-[4.167vw] text-white">
-                We create impactful
-                <br /> digital experiences & redefine
-                <br /> brand identities.
+                Lead The Future With Bold Digital Innovation. Let’s Innovate!
               </h1>
             </div>
             <div className="md:grid md:grid-cols-2 gap-6 items-center space-y-8 md:space-y-0">
-              <div className='up_h'>
+              <div className="up_h">
                 <Image
                   src={"/img/we-r.png"}
                   width={431}
@@ -72,16 +71,16 @@ export default function Wecreate() {
               </div>
               <div className="space-y-12 up_h">
                 <p className="text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] text-white">
-                  We use experience and creativity to break the mold and craft
-                  digital experiences that defy the status quo. Harnessing the
-                  cutting-edge technologies of today, we disrupt, innovate and
-                  shape the behaviors of tomorrow.
+                  Harnessing creative minds and advanced technology, VisualQube
+                  builds digital experiences that captivate and redefine. Every
+                  solution we deliver pushes boundaries with innovation, and
+                  they are designed to blast into the digital frontier.
                 </p>
                 <p className="text-[15px] leading-[25px] md:text-[20px] md:leading-[35px] text-white">
-                  Our portfolio is not a simple list of projects. It is a map of
-                  digital adventures we shared with our clients, whether they
-                  are small family businesses and startups or big players on the
-                  corporate scene.
+                  From bold brand identities to cutting-edge solutions, expect
+                  seamless experiences that disrupt the conventional. Whether
+                  launching a startup or scaling an enterprise, the right
+                  approach ensures success.
                 </p>
                 <div>
                   <Link
@@ -97,5 +96,5 @@ export default function Wecreate() {
         </div>
       </section>
     </>
-  )
+  );
 }
