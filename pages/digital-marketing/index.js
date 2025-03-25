@@ -8,10 +8,16 @@ import Ready from "@/components/ready";
 import Testimonial from "@/components/Testimonial";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from 'gsap';
+
 
 export default function index() {
+  const workRef = useRef();
+  gsap.registerPlugin(ScrollTrigger);
    const [activeTwo, setActiveTwo] = useState("web1");
   const [activeIndex, setActiveIndex] = useState(0);
   const images = ["/img/scroll/d1.png", "/img/scroll/d2.png", "/img/scroll/d3.png"]; 
@@ -37,6 +43,22 @@ export default function index() {
       sections.forEach((section) => observer.unobserve(section));
     };
   }, []);
+  useGSAP(() => {
+    gsap.from(workRef.current.querySelectorAll('.shapework'),{
+
+       scrollTrigger: {
+        trigger: workRef.current,
+        start: "top 40%", // Jab section viewport ke 80% pe aaye
+        end: "bottom",
+        // markers:true,
+        
+        // scrub: 4,
+        // toggleActions: "play pause resume reset",
+        toggleActions: "play none none reverse",
+      },
+       
+    })
+   }, [])
 
   return (
     <>
@@ -129,8 +151,8 @@ export default function index() {
       </section>
       <Cta heading={`Be Seen. Be Heard. Be Unstoppable.`} rtc={"rtwcolor"} />
       <Industory />
-      <section className="work-sec  relative px-8 md:px-24 pb-28 bg-[#030728] md:bg-transparent ">
-              <div className="hidden md:block w-shape absolute left-0 right-0 w-fit m-auto px-8">
+      <section ref={workRef} className="work-sec  relative px-8 md:px-24 pb-28 bg-[#030728] md:bg-transparent ">
+      <div className="shapework hidden md:block w-shape sticky left-0 right-0 top-0 w-fit m-auto px-8">
                 <Image
                   src={"/img/work-shape.png"}
                   width={1800}

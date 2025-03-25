@@ -14,6 +14,63 @@ import 'swiper/css/autoplay';
 import { Autoplay, Pagination } from 'swiper/modules';
 
 export default function Ready() {
+
+  const BtnImg = [
+    {
+      img: '/img/btm/b1.png', 
+    },
+    {
+      img: '/img/btm/b2.png', 
+    },
+    {
+      img: '/img/btm/b3.png', 
+    },
+    {
+      img: '/img/btm/w1.png', 
+    },
+    {
+      img: '/img/btm/w2.png', 
+    },
+    {
+      img: '/img/btm/w3.png', 
+    },
+    {
+      img: '/img/btm/w4.png', 
+    },
+    {
+      img: '/img/btm/w5.png', 
+    },
+    {
+      img: '/img/btm/w6.png', 
+    },
+    {
+      img: '/img/btm/a1.png', 
+    },
+    {
+      img: '/img/btm/a2.png', 
+    },
+    {
+      img: '/img/btm/a3.png', 
+    },
+    {
+      img: '/img/btm/a4.png', 
+    },
+    {
+      img: '/img/btm/a5.png', 
+    },
+    {
+      img: '/img/btm/d1.png', 
+    },
+    {
+      img: '/img/btm/d2.png', 
+    },
+
+    {
+      img: '/img/btm/d3.png', 
+    },
+
+
+  ]
  
   return (
     <>
@@ -48,10 +105,10 @@ export default function Ready() {
             1024: { slidesPerView: 4, spaceBetween: 30 }  // Desktop
           }}
         >
-          {["re1.png", "re2.png", "re3.png", "re4.png", "re1.png", "re2.png"].map((img, index) => (
+          {BtnImg?.map((v, index) => (
             <SwiperSlide key={index}>
               <div className="redimg-bx">
-                <Image src={`/img/${img}`} width={430} height={448} alt="visual" />
+                <Image src={v?.img} width={430} height={448} alt="visual" />
               </div>
             </SwiperSlide> 
           ))}
