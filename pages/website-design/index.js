@@ -448,7 +448,7 @@ export default function index() {
                             <div>
                               <Link
                                 className="bg-[#FB0] py-4 inline-block w-full rounded text-center text-[18px] transition duration-300 hover:bg-[#030728] hover:text-[#fff]"
-                                href={"/contact"}
+                                href={"/order"}
                               >
                                 Get Started!
                               </Link>
@@ -727,7 +727,7 @@ export default function index() {
                             <div>
                               <Link
                                 className="bg-[#05C7AA] py-4 inline-block w-full rounded text-center text-[18px] transition duration-300 hover:bg-[#FB0] hover:text-[#fff]"
-                                href={"/contact"}
+                                href={"/order"}
                               >
                                 Get Started!
                               </Link>
@@ -1027,7 +1027,7 @@ export default function index() {
                             <div>
                               <Link
                                 className="bg-[#6538E6] py-4 inline-block w-full rounded text-center text-white text-[18px] transition duration-300 hover:bg-[#030728] hover:text-[#fff]"
-                                href={"/contact"}
+                                href={"/order"}
                               >
                                 Get Started!
                               </Link>
@@ -1410,7 +1410,7 @@ export default function index() {
                             <div>
                               <Link
                                 className="bg-[#FB0] py-4 inline-block w-full rounded text-center text-[18px] transition duration-300 hover:bg-[#030728] hover:text-[#fff]"
-                                href={"/contact"}
+                                href={"/order"}
                               >
                                 Get Started!
                               </Link>
@@ -1684,7 +1684,7 @@ export default function index() {
                             <div>
                               <Link
                                 className="bg-[#05C7AA] py-4 inline-block w-full rounded text-center text-[18px] transition duration-300 hover:bg-[#FB0] hover:text-[#fff]"
-                                href={"/contact"}
+                                href={"/order"}
                               >
                                 Get Started!
                               </Link>
@@ -1973,7 +1973,7 @@ export default function index() {
                             <div>
                               <Link
                                 className="bg-[#6538E6] py-4 inline-block w-full rounded text-center text-white text-[18px] transition duration-300 hover:bg-[#030728] hover:text-[#fff]"
-                                href={"/contact"}
+                                href={"/order"}
                               >
                                 Get Started!
                               </Link>

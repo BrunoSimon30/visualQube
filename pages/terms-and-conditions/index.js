@@ -9,105 +9,241 @@ const termsData = [
   {
     id: "your-agreement",
     content: `
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Welcome to VisualQube. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     By accessing or using our website, products, or services, you confirm your agreement to be bound by these terms and conditions. If you do not agree to these terms, please refrain from using our services.
-      </p>
-     </div>
-    <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Use of Services. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     VisualQube provides a variety of digital marketing, branding, website design, app development, and other technological services. These services are provided under the condition that they are used for lawful purposes and in a manner that does not infringe on the rights of, or restrict or inhibit the use and enjoyment of, this service by any third party. This restriction includes conduct which is unlawful or which may harass, harm, or cause distress to anyone.
-      </p>
-     </div>
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Modification of Terms. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     We reserve the right to change or modify these terms at any time without prior notice. Your continued use of VisualQube’s services after any such changes constitutes your acceptance of the new terms.
-      </p>
-     </div>
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Privacy Policy. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     Your privacy is important to us. Our use of your personal information is governed by our Privacy Policy, which is incorporated into these terms by reference. By using our services, you agree to the processing of your data as described in the Privacy Policy and warrant that all data provided by you is accurate.
-      </p>
-     </div>
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Intellectual Property. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     All content included on our site, such as text, graphics, logos, button icons, images, and software, is the property of VisualQube or its content suppliers and protected by international copyright and intellectual property laws. You agree not to reproduce, duplicate, copy, sell, resell, or exploit any portion of the service, use of the service, or access to the service without express written permission by us.
-      </p>
-     </div>
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       User Obligations. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     You agree to use our website and services responsibly. This includes not using our services for any unlawful purpose, not attempting to breach the security of our website, and not interfering with or disrupting the services or servers or networks connected to our services.
-      </p>
-     </div>
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Disclaimer of Warranties. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     VisualQube provides its services "as is" and without any warranty or condition, express, implied or statutory. We specifically disclaim any implied warranties of title, merchantability, fitness for a particular purpose and non-infringement. We do not guarantee continuous, uninterrupted access to our services, and operation of our website and services may be interfered with by numerous factors outside of our control.
-      </p>
-     </div>
-         <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Limitation of Liability. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     In no event shall VisualQube, its directors, officers, employees, or affiliates be liable for lost profits or any special, incidental, indirect or consequential damages arising out of or in connection with our site, our services, or this agreement (however arising, including negligence). Our liability, and the liability of our directors, officers, employees, and affiliates, to you or any third parties in any circumstance is limited to the amount of fees you pay to us in the 12 months prior to the action giving rise to liability.
-      </p>
-     </div>
-         <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Indemnification. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     You agree to indemnify and hold VisualQube and (as applicable) our parent, subsidiaries, affiliates, VisualQube partners, officers, directors, agents, employees, and suppliers harmless from any claim or demand, including reasonable attorneys’ fees, made by any third party due to or arising out of your breach of this agreement or the documents it incorporates by reference, or your violation of any law or the rights of a third party.
-      </p>
-     </div>
       <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Governing Law. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which our company is established, without regard to its conflict of law principles.
-      </p>
-     </div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          Visualqube, LLC Terms and Conditions
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Effective Date: March 5, 2025<br/>
+          Last Updated: March 5, 2025
+        </p>
+        <p class="text-[#303030] text-[20px] mt-4">
+          Welcome to Visualqube, LLC – where your vision meets our creative superpowers.
+          By accessing or using our website, products, or services, you (“you,” “user,” or “client”) agree to the following Terms and Conditions (“T&C”).
+          If you don’t like rules, this is your sign to exit.
+        </p>
+      </div>
+  
       <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Dispute Resolution. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     Any disputes related to these terms or your use of the services will be resolved by arbitration, except that you may assert claims in small claims court if your claims qualify.
-      </p>
-     </div>
-     <div>
-      <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
-       Termination. 
-      </h2>
-      <p class=" text-[#303030]  text-[20px]">
-     We may terminate your access to all or any part of our services at any time, with or without cause, with or without notice, effective immediately, which may result in the forfeiture and destruction of all information associated with your membership. If you wish to terminate your account, you may simply discontinue using our services.
-Thank you for choosing VisualQube. We hope our services provide significant value to your endeavors and help you achieve your digital aspirations. If you have any questions or concerns about these terms, please contact us for clarification.
-
-      </p>
-     </div>
-      `,
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          1. Use of Services
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Visualqube, LLC provides top-tier services in digital marketing, branding, website design, app development, and more.<br/>
+          You agree to:
+          <ul class="list-disc pl-5">
+            <li>Use our services for lawful purposes only.</li>
+            <li>Respect others' rights — no harassment, no harm, no chaos.</li>
+            <li>Stay out of our backend — hacking, breaching, and sneaky business will not be tolerated.</li>
+          </ul>
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          2. Ownership and Intellectual Property
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Everything on our site — from the clever copy to the gorgeous visuals — belongs to Visualqube, LLC or its licensed partners.<br/>
+          You cannot:
+          <ul class="list-disc pl-5">
+            <li>Copy, resell, license, modify, or exploit our content.</li>
+            <li>Reverse engineer or deep-link into our website.</li>
+            <li>Pass off our work as your own.</li>
+          </ul>
+          Respect the craft, respect the creators.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          3. Modifications to Terms
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          We can update these T&Cs whenever necessary.<br/>
+          No postcards, no secret scrolls — just a fresh version posted online.<br/>
+          Your continued use means you accept any updates.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          4. Privacy Policy
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Your privacy matters.<br/>
+          Our use of your information is governed by our Privacy Policy, which is part of this agreement.<br/>
+          By using our services, you’re giving the thumbs-up to that too.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          5. User Content and Responsibilities
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          You are fully responsible for the content you upload or provide:
+          <ul class="list-disc pl-5">
+            <li>You guarantee it's yours (or you have permission).</li>
+            <li>You grant us rights to use it solely for delivering services.</li>
+            <li>You vow not to upload anything sketchy, illegal, or offensive.</li>
+          </ul>
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          6. Confidentiality
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          If it's private — it stays private.<br/>
+          Any sensitive information shared between us (pricing, project details, etc.) remains confidential unless already public.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          7. Feedback
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Got thoughts, ideas, improvements? We love it.<br/>
+          By submitting feedback:
+          <ul class="list-disc pl-5">
+            <li>You allow us to use it freely.</li>
+            <li>You waive any right to compensation.</li>
+            <li>You agree it's not confidential.</li>
+          </ul>
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          8. Warranty Disclaimer
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Our services are provided “as is” and “as available.”<br/>
+          We don’t guarantee flawless perfection, uninterrupted service, or virus-free experiences.<br/>
+          Sometimes tech just has a bad day. We ride it out together.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          9. Limitation of Liability
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Visualqube, LLC’s liability to you is limited:<br/>
+          No responsibility for lost profits, indirect damages, or weird catastrophic stuff.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          10. Refund Policy
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Refunds MAY be approved if:
+          <ul class="list-disc pl-5">
+            <li>You reject the initial deliverable without requesting revisions.</li>
+            <li>You cancel before any work is started (admin fees apply).</li>
+            <li>We cannot complete your project due to internal reasons.</li>
+          </ul>
+          Refunds WILL NOT be approved if:
+          <ul class="list-disc pl-5">
+            <li>Discounted or promotional package was purchased.</li>
+            <li>Initial or revised designs were approved.</li>
+            <li>You requested revisions.</li>
+            <li>You ghosted us for 14+ consecutive days.</li>
+            <li>You changed your mind or business model.</li>
+            <li>Final deliverables were approved or delivered.</li>
+            <li>Third-party services (SEO, hosting, domain registration, etc.) were involved.</li>
+            <li>Scope changed massively without a new agreement.</li>
+          </ul>
+          Special Notes:<br/>
+          <ul class="list-disc pl-5">
+            <li>Bundles: Refunds only apply to the unsatisfactory service, not the entire package.</li>
+            <li>Post-Refund Ownership: After a refund, Visualqube, LLC retains full ownership of any deliverables. You can’t use anything we made.</li>
+          </ul>
+          Requesting a Refund:<br/>
+          Send an email to <a href="mailto:billing@visualqube.com" class="text-blue-500">billing@visualqube.com</a> with your project ID, full name, and reason for refund. We'll review and respond within 5–7 business days.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          11. Promotional Offers and Discounts
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Promotions and discounts are subject to change, revocation, or modification without notice.<br/>
+          Fair use policies apply to all deals.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          12. Dispute Resolution
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Any dispute, claim, or disagreement will be resolved via binding arbitration in the State of Utah.<br/>
+          Small claims court is available for qualifying claims — but again, in Utah only.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          13. Governing Law
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          These Terms are governed exclusively by the laws of the State of Utah, USA.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          14. Termination
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          We may terminate your account or services at any time, with or without cause, effective immediately.<br/>
+          If you want to leave, you can stop using our services anytime — no hard feelings.
+        </p>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          15. Entire Agreement
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          These T&Cs + our Privacy Policy + any posted legal notices = our full agreement.<br/>
+          No side deals, no secret handshakes.
+        </p>
+      </div>
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          16. Delivery Method / Shipping Policy
+        </h2>
+        <div class="space-y-3">
+        <p class="text-[#303030] text-[20px]">
+          All deliverables are sent <strong>digitally and/or electronically</strong> . We operate strictly on a milestone-based delivery system, meaning each stage of the project is completed and delivered as agreed upon in the project scope or contract. Once a milestone is approved, the corresponding deliverables are shared via email or any preferred communication channel mutually agreed upon between Visualqube and the client.
+        </p>
+         <p class="text-[#303030] text-[20px]">
+          We do <strong>not offer any physical shipping</strong> or printed deliveries. All files, assets, or materials are transferred electronically. It is the client’s responsibility to ensure that their provided communication channels (e.g., email address, Slack, Trello, etc.) are active and accessible throughout the duration of the project.
+        </p>
+          <p class="text-[#303030] text-[20px]">Once a deliverable is sent, Visualqube will consider that milestone fulfilled unless the client raises a concern or revision request as per the agreed revision policy.</p>
+          </div>
+      </div>
+  
+      <div>
+        <h2 class="text-[#030728] text-[30px] capitalize font-semibold">
+          Final Words
+        </h2>
+        <p class="text-[#303030] text-[20px]">
+          Thanks for trusting Visualqube, LLC.<br/>
+          We’re here to launch your dreams, not just build websites.<br/>
+          Got questions? Drop us a line at <a href="mailto:Info@visualqube.com" class="text-blue-500">Info@visualqube.com</a> — we actually read our emails. 👀<br/>
+          Let's make magic happen. 🚀
+        </p>
+      </div>
+    `,
   },
 ];
 
@@ -123,14 +259,13 @@ export default function index() {
         <div className="container mx-auto max-w-screen-2xl space-y-24">
           <div className="md:flex justify-between items-center space-y-4 md:space-y-0">
             <h1 className="text-[5.729vw] text-[#030233] leading-[5.729vw]">
-            Terms & Conditions
+              Terms & Conditions
             </h1>
           </div>
         </div>
       </section>
       <section className="term-sec pb-32 px-6 xl:px-0">
         <div className="container mx-auto max-w-screen-2xl space-y-6">
-       
           {termsData.map((section) => (
             <div
               className="text-[#030728] space-y-6"

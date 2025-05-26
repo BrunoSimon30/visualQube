@@ -96,8 +96,8 @@ export default function Header() {
                 </Link>
               </li>
             </ul>
-            <Link className="btn-a" href="tel:(123) 456 7890">
-              (123) 456 7890
+            <Link className="btn-a" href="tel:+1 888-602-6540">
+            +1 888-602-6540
             </Link>
           </nav>
 
@@ -177,8 +177,8 @@ export default function Header() {
               </Link>
             </li>
           </ul>
-          <Link className="block mt-4 text-center font-medium" href="tel:(123) 456 7890">
-            (123) 456 7890
+          <Link className="block mt-4 text-center font-medium" href="tel:+1 888-602-6540">
+          +1 888-602-6540
           </Link>
         </div>
       )}

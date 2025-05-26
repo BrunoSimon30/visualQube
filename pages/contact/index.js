@@ -106,9 +106,7 @@ export default function ContactPage() {
                   <IoLocation />
                 </span>
                 <p className="text-[#030728] text-[24px]">
-                  Paris, FranceAv. 13 #99,
-                  <br />
-                  Offices 201 & 204
+                11658 S. Copper Sky Dr, South<br/> Jordan, UT, 84009, USA
                 </p>
               </div>
               <div className="pl-12 border bg-white px-4 py-8 rounded-2xl flex items-center gap-12">
@@ -118,8 +116,8 @@ export default function ContactPage() {
                 <p className="text-[#030728] text-[24px]">
                   Let’s Discuss!
                   <br />
-                  <a className="font-semibold" href="tel:0123457890">
-                    012 345 7890
+                  <a className="font-semibold" href="tel:+1 888-602-6540">
+                  +1 888-602-6540
                   </a>
                 </p>
               </div>

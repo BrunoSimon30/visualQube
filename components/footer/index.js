@@ -78,7 +78,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="tel:+12 34 567 89 00">+12 34 567 89 00</Link>
+                    <Link href="tel:+1 888-602-6540">+1 888-602-6540</Link>
                   </li>
                   <li>
                     <p>11658 S. Copper Sky Dr, South Jordan, UT, 84009, USA</p>

@@ -74,6 +74,30 @@ Changes to Our Privacy Policy.
       </p>
      </div>
      <div>
+  <h2  class="text-[#030728] text-[30px] capitalize font-semibold">
+    Opt-Out and User Rights
+  </h2>
+  <p class=" text-[#303030]  text-[20px]">
+    <strong>You have the right to opt out of:</strong>
+    <br />
+    - Marketing communications (via unsubscribe links or by contacting us)
+    <br />
+    - Non-essential data collection (by managing cookie settings in your browser)
+    <br /><br />
+   <Strong> Residents of the European Economic Area (EEA) and California have the right to:</Strong>
+    <br />
+    - Access the personal data we hold about you
+    <br />
+    - Request correction or deletion of your data
+    <br />
+    - Object to or restrict certain types of data processing
+    <br />
+    - Request data portability
+    <br /><br />
+    To exercise these rights, please contact us using the details below.
+  </p>
+</div>
+     <div>
       <h2 class="text-[#030728] text-[30px] capitalize font-semibold"> 
 Contact Us. 
       </h2>
