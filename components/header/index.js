@@ -20,7 +20,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header ref={HeaderRef} className="bg-[#FCFFF5] w-full py-4 fixed z-20 top-0 left-0">
+    <header ref={HeaderRef} className="bg-[#FCFFF5] w-full py-4 fixed z-20 top-0 left-0 drop-shadow-2xl">
       <div className="container mx-auto max-w-screen-2xl px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
